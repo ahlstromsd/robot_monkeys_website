@@ -8,4 +8,12 @@
 
 body{
     background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+.purpose-cards div{
+    text-align: left;
+    border: solid black 1px;
+    padding: 1rem;
+    margin: 1rem;
 }
