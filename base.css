@@ -1,9 +1,17 @@
 :root{
     --text-color: black;
     --body-color:white;
-    /*--card-color:;
-    --header-color:;
+    --card-color:#4E0110;
+    /*--header-color:;
     --nav-color:; */
+
+    /* colors from content team
+    #294936    Brunswick green
+    #324376    Marian blue
+    #ffffff    White
+    #FFE8C2    Wheat
+    #4E0110    Chocolate cosmos
+    */
 }
 
 body{
@@ -11,9 +19,23 @@ body{
     color: var(--text-color);
 }
 
-.purpose-cards div{
-    text-align: left;
-    border: solid black 1px;
+.purpose-intro{
     padding: 1rem;
     margin: 1rem;
+}
+
+.purpose-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    text-align: left;
+}
+
+.purpose-cards div{
+    border: 2px solid var(--card-color);
+    margin: 2rem;
+    width: 300px;
+}
+
+.purpose-cards img{
+    margin: 0.5rem;
 }
