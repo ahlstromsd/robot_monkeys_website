@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-
+<!-- In Development -->
 </header>
 <main>
     <div class="Title">
@@ -39,7 +39,7 @@
               </li>
               <li>
                 <label for="msg">Feedback:</label>
-                <textarea id="msg" name="user_message"></textarea>
+                <textarea id="msg" name="user_feedback"></textarea>
               </li>
               <li class="button">
                 <button type="submit">Send your message</button>
@@ -49,6 +49,16 @@
     </div>
 </main>
 <footer>
-
+<!-- In Development -->
 </footer>
+<script>
+  const feedbackElement = document.getElementById('feedback');
+  const formElement = document.forms[0];
+  formElement.addEventListener('submit', function(e) {
+      e.preventDefault();
+      feedbackElement.innerHTML = "Thank you for your feedback. We'll get back with you as soon as possible!";
+      feedbackElement.style.display = "block";
+      document.body.classList.toggle('moveDown');
+  });
+</script>
 </body>
