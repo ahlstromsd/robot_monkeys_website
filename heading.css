@@ -1,0 +1,242 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #393E41;
+    background-color: #D3D0CB;
+ }
+ 
+ 
+ header {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+ }
+ 
+ 
+ .top-bar {
+    background-color: #1E2019;
+    padding: 0.5em 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ 
+ .logo-container {
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+ }
+ 
+ 
+ .logo {
+    max-height: 30px;
+    margin: 0 0.5em;
+ }
+ 
+ 
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+ }
+ 
+ 
+ nav ul li {
+    margin: 0 1em;
+    position: relative;
+ }
+ 
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: #E2C044;
+    font-size: 0.9em;
+    font-weight: 300;
+ }
+ 
+ 
+ nav ul li a:hover {
+    color: #587B7F;
+ }
+ 
+ 
+ nav ul li::after {
+    content: "|";
+    color: white;
+    position: absolute;
+    right: -1em;
+ }
+ 
+ 
+ nav ul li:last-child::after {
+    content: "";
+ }
+ 
+ 
+ .header-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('scale.webp') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-blend-mode: multiply;
+ }
+ 
+ 
+ .header-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom, rgba(30, 32, 25, 0), rgba(211, 208, 203, 1));
+ }
+ 
+ 
+ .header-text {
+    position: relative;
+    z-index: 1;
+ }
+ 
+ 
+ .header-text h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Orbitron', Arial, sans-serif;
+ }
+ 
+ 
+ .header-text p {
+    font-size: 1.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Orbitron', Arial, sans-serif;
+ }
+ 
+ 
+ main {
+    padding: 2em;
+    text-align: center;
+ }
+ 
+ 
+ h1, h2 {
+    color: #393E41;
+    font-family: 'Orbitron', Arial, sans-serif;
+ }
+ 
+ 
+ h2 {
+    color: #587B7F;
+ }
+ 
+ 
+ footer {
+    background-color: #1E2019;
+    color: #E2C044;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+ }
+ 
+ 
+ .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+ }
+ 
+ 
+ .footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+ }
+ 
+ 
+ .footer-logo img {
+    max-width: 100px;
+ }
+ 
+ 
+ .footer-nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ 
+ .footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ 
+ .footer-nav ul li {
+    margin: 0 0.5em;
+ }
+ 
+ 
+ .footer-nav ul li a {
+    text-decoration: none;
+    color: #E2C044;
+ }
+ 
+ 
+ .footer-nav ul li a:hover {
+    color: #587B7F;
+ }
+ 
+ 
+ .social-media {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+ 
+ .social-media a img {
+    max-width: 30px;
+    margin: 0 0.5em;
+    transition: transform 0.3s ease;
+ }
+ 
+ 
+ .social-media a img:hover {
+    transform: scale(1.1);
+ }
+ 
+ 
+ .footer-container p {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    flex-basis: 100%;
+ }
+ 
+ 
+ 
+ 
