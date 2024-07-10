@@ -1,0 +1,36 @@
+:root{
+    --text-color: black;
+    --body-color:white;
+    --card-color:#4E0110;
+    /*--header-color:;
+    --nav-color:; */
+
+    /* colors from content team
+    #294936    Brunswick green
+    #324376    Marian blue
+    #ffffff    White
+    #FFE8C2    Wheat
+    #4E0110    Chocolate cosmos
+    */
+}
+/* * {
+    border: 1px solid red;
+} */
+
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+.contact-Title{
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact-FAQ{
+    border: solid black;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
