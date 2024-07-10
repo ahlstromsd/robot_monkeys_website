@@ -1,9 +1,10 @@
 :root{
     --text-color: black;
-    --body-color:white;
+    --inv-text-color: #ffffff;
+    --body-color: #FFE8C2;
     --card-color:#4E0110;
-    /*--header-color:;
-    --nav-color:; */
+    --header-color:#324376;
+    --nav-color: #294936;
 
     /* colors from content team
     #294936    Brunswick green
@@ -17,8 +18,10 @@
 body{
     background-color: var(--body-color);
     color: var(--text-color);
+    font-family: "roboto", sans-serif;
 }
 
+/*Purpose Page*/
 .purpose-intro{
     padding: 1rem;
     margin: 1rem;
@@ -27,6 +30,7 @@ body{
 .purpose-cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
 }
 
 .purpose-cards div{
