@@ -13,31 +13,24 @@
     #4E0110    Chocolate cosmos
     */
 }
+/* * {
+    border: 1px solid red;
+} */
 
 body{
     background-color: var(--body-color);
     color: var(--text-color);
 }
 
-.purpose-intro{
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.purpose-cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-}
-
-.purpose-cards div{
+.contact-Title{
     text-align: center;
-    border: 2px solid var(--card-color);
-    background-color: var(--background-color);
-    padding: 1rem;
-    margin: 2rem;
-    width: 300px;
+    font-size: 2em;
 }
 
-.purpose-cards img{
-    margin: 0.5rem;
+.contact-FAQ{
+    border: solid black;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
 }
