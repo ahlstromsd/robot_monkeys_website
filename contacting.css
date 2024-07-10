@@ -17,9 +17,13 @@
     border: 1px solid red;
 } */
 
-body{
-    background-color: var(--body-color);
-    color: var(--text-color);
+body {
+    background-color: white;
+    font-family: "Libre Baskerville", "Martian Mono", "Edu Tas Beginner";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .contact-Title{
@@ -39,4 +43,29 @@ body{
     padding-top: 0;
     text-align: left;
     font-size: 1rem;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 20px auto 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 5px solid white;
+    border-radius: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
 }
