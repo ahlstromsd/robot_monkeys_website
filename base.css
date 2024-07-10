@@ -27,11 +27,13 @@ body{
 .purpose-cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    text-align: left;
 }
 
 .purpose-cards div{
+    text-align: center;
     border: 2px solid var(--card-color);
+    background-color: var(--background-color);
+    padding: 1rem;
     margin: 2rem;
     width: 300px;
 }
