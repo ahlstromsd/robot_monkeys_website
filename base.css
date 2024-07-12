@@ -317,3 +317,52 @@ img {
     grid-column: 2;
 }
 /* End Features page */
+
+/* Contact Us Page */
+.contact-Title{
+    text-align: center;
+    font-size: 3em;
+}
+.contact-FAQ{
+    border: solid black;
+    border-radius: 100px;
+    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 2em;
+}
+.contact-QnA{
+    padding-top: 0;
+    text-align: left;
+    font-size: 1rem;
+}
+.contact-Contact{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 20px auto 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 5px solid white;
+    border-radius: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
