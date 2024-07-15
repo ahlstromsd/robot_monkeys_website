@@ -268,12 +268,6 @@ body {
     margin: 1rem;
 }
 
-.purpose-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-items: center;
-}
-
 .purpose-cards div {
     text-align: center;
     padding: 1rem;
@@ -283,6 +277,13 @@ body {
 
 .purpose-cards img {
     margin: 0.5rem;
+}
+
+@media screen and (min-width: 1000px){
+    .purpose-cards div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* Features page */
