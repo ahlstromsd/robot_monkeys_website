@@ -367,3 +367,253 @@ label {
     text-align: right;
 }
 /* End of Contact Us Page */
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #294936;
+    /* Brunswick Green */
+    background-color: #FFE8C2;
+    /* Wheat */
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top-bar {
+    background-color: #4E0110;
+    /* Chocolate Cosmos */
+    padding: 0.5em 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.logo {
+    max-height: 40px;
+    margin: 0 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav ul li {
+    margin: 0 1em;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFE8C2;
+    /* Wheat */
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+nav ul li a:hover {
+    color: #324376;
+    /* Marian Blue */
+}
+
+nav ul li::after {
+    content: "|";
+    color: #FFFFFF;
+    /* White */
+    position: absolute;
+    right: -1em;
+}
+
+nav ul li:last-child::after {
+    content: "";
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('monkey1.webp') no-repeat center center/cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    /* White */
+    overflow: hidden;
+}
+
+.header-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom, rgba(78, 1, 16, 0), #FFE8C2);
+    /* Chocolate Cosmos to Wheat */
+}
+
+.header-text {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20vh;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+
+.header-text p {
+    font-size: 1.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #294936;
+    /* Brunswick Green */
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+
+h2 {
+    color: #324376;
+    /* Marian Blue */
+}
+
+footer {
+    background-color: #4E0110;
+    /* Chocolate Cosmos */
+    color: #FFE8C2;
+    /* Wheat */
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-nav ul li {
+    margin: 0 0.5em;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #FFE8C2;
+    /* Wheat */
+}
+
+.footer-nav ul li a:hover {
+    color: #324376;
+    /* Marian Blue */
+}
+
+.social-media {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    /* Add spacing between the icons */
+}
+
+.social-media a img {
+    max-width: 50px;
+    /* Increase the size of the icons */
+    margin: 0 0.5em;
+    transition: transform 0.3s ease;
+}
+
+.social-media a img:hover {
+    transform: scale(1.1);
+}
+
+.app-advertisement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* Adjust as needed */
+    padding: 20px;
+    /* Adjust spacing */
+    background-color: #4E0110;
+    /* Chocolate Cosmos */
+    border-radius: 10px;
+    /* Rounded corners for a professional look */
+}
+
+.app-advertisement .app-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Adjust spacing between QR code and text */
+}
+
+.app-advertisement .qr-code {
+    max-width: 100px;
+    /* Adjust size of QR code image */
+    margin-right: 10px;
+    /* Add spacing between QR code and text */
+}
