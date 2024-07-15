@@ -276,8 +276,6 @@ body {
 
 .purpose-cards div {
     text-align: center;
-    border: 2px solid var(--card-color);
-    background-color: var(--background-color);
     padding: 1rem;
     margin: 2rem;
     width: 300px;
